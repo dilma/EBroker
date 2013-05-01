@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget37"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/loginback"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+<EditText
+    android:id="@+id/seller_land_discriptionText"
+    android:layout_width="140dp"
+    android:layout_height="119px"
+    android:layout_x="112dp"
+    android:layout_y="198dp"
+    android:textSize="18sp" >
+
+    <requestFocus />
+</EditText>
+
+<Button
+    android:id="@+id/land_submit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="174dp"
+    android:layout_y="304dp"
+    android:text="Submit" />
+
+<TextView
+    android:id="@+id/widget39"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="12dp"
+    android:layout_y="226dp"
+    android:textColor="@color/white"
+    android:text="Discription" />
+
+<AutoCompleteTextView
+    android:id="@+id/seller_land_locationText"
+    android:layout_width="128dp"
+    android:layout_height="wrap_content"
+    android:layout_x="114dp"
+    android:layout_y="156dp"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/widget34"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="18dp"
+    android:layout_y="165dp"
+    android:textColor="@color/white"
+    android:text="Place" />
+
+<AutoCompleteTextView
+    android:id="@+id/seller_land_typeText"
+    android:layout_width="191px"
+    android:layout_height="wrap_content"
+    android:layout_x="117dp"
+    android:layout_y="100dp"
+    android:textSize="18sp" />
+
+<TextView
+    android:id="@+id/widget32"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="12dp"
+    android:layout_y="104dp"
+    android:textColor="@color/white"
+    android:text="Land Type" />
+
+<ImageView
+    android:id="@+id/imageView1"
+    android:layout_width="67dp"
+    android:layout_height="49dp"
+    android:layout_x="23dp"
+    android:layout_y="20dp"
+    android:src="@drawable/log" />
+
+</AbsoluteLayout>

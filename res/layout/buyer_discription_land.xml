@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget54"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/loginback"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/white"
+	android:text="Land Type"
+	android:layout_x="8dp"
+	android:layout_y="110dp" />
+<EditText
+	android:id="@+id/buyer_land_typeText"
+	android:layout_width="218px"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="92dp"
+	android:layout_y="100dp" />
+<TextView
+	android:id="@+id/widget35"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/white"
+	android:text="Location"
+	android:layout_x="11dp"
+	android:layout_y="166dp" />
+<EditText
+	android:id="@+id/buyer_land_locationText"
+	android:layout_width="217px"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="94dp"
+	android:layout_y="155dp" />
+<TextView
+	android:id="@+id/widget37"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/white"
+	android:text="Contact"
+	android:layout_x="10dp"
+	android:layout_y="218dp" />
+<EditText
+	android:id="@+id/buyer_land_ContactText"
+	android:layout_width="215px"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_x="95dp"
+	android:layout_y="207dp" />
+<ImageView
+	android:id="@+id/widget55"
+	android:layout_width="96px"
+	android:layout_height="65px"
+	android:src="@drawable/log"
+	android:layout_x="14dp"
+	android:layout_y="12dp" />
+
+<Button
+    android:id="@+id/buyer_land_request"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="108dp"
+    android:layout_y="272dp"
+    android:text="Submit" />
+
+<Button
+    android:id="@+id/buyer_landExit"
+    android:layout_width="102dp"
+    android:layout_height="wrap_content"
+    android:layout_x="195dp"
+    android:layout_y="275dp"
+    android:text="@string/exit" />
+
+<TextView
+    android:id="@+id/buyer_status"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="12dp"
+    android:layout_y="255dp"
+    android:text="@string/status" />
+
+</AbsoluteLayout>

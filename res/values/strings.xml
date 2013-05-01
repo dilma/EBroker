@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, EBrokerLogin!</string>
+    <string name="app_name">EBrokerFinal</string>
+    <string name="select_type">Select Type</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="land">Land</string>
+    <string name="nextButton">Next</string>
+    <string name="exit">Exit</string>
+    <string name="status"/>
+    <string name="welcome">Welcome!</string>
+
+</resources>

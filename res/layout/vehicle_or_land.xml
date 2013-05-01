@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/loginback"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+	android:id="@+id/widget32"
+	android:layout_width="80px"
+	android:layout_height="63px"
+	android:src="@drawable/log"
+	android:layout_x="12dp"
+	android:layout_y="16dp" />
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/white"
+	android:text="@string/select_type"
+	android:textSize="25sp"
+	android:textStyle="bold"
+	android:layout_x="107dp"
+	android:layout_y="46dp" />
+<RadioGroup
+	android:id="@+id/widget34"
+	android:layout_width="135px"
+	android:layout_height="111px"
+	android:layout_x="12dp"
+	android:layout_y="118dp">
+
+<RadioButton
+    android:id="@+id/vehicleradio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:checked="true"
+    android:text="@string/vehicle" />
+
+<RadioButton
+	android:id="@+id/widget36"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="@string/land" />
+</RadioGroup>
+<ImageView
+	android:id="@+id/widget37"
+	android:layout_width="60px"
+	android:layout_height="39px"
+	android:src="@drawable/vehicle"
+	android:layout_x="174dp"
+	android:layout_y="124dp" />
+<ImageView
+	android:id="@+id/widget38"
+	android:layout_width="61px"
+	android:layout_height="39px"
+	android:src="@drawable/land"
+	android:layout_x="172dp"
+	android:layout_y="175dp" />
+
+<Button
+    android:id="@+id/next"
+    android:layout_width="69px"
+    android:layout_height="wrap_content"
+    android:layout_x="168dp"
+    android:layout_y="261dp"
+    android:onClick="onClickNext"
+    android:text="@string/nextButton"/>
+
+<TextView
+    android:id="@+id/buyer_seller"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="102dp"
+    android:layout_y="14dp"
+    android:textColor="@color/white"
+    android:text="test" />
+
+</AbsoluteLayout>

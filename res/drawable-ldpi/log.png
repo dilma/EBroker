@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget37"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget32"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Land Type"
+	android:layout_x="13dp"
+	android:layout_y="27dp"
+	android:layout_x="9dp"
+	android:layout_y="103dp" />
+<AutoCompleteTextView
+	android:id="@+id/seller_land_typeText"
+	android:layout_width="191px"
+	android:layout_height="wrap_content"
+	android:text="AutoComplete"
+	android:textSize="18sp"
+	android:layout_x="103dp"
+	android:layout_y="17dp"
+	android:layout_x="93dp"
+	android:layout_y="96dp" />
+<TextView
+	android:id="@+id/widget34"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Place"
+	android:layout_x="14dp"
+	android:layout_y="73dp"
+	android:layout_x="12dp"
+	android:layout_y="158dp" />
+<AutoCompleteTextView
+	android:id="@+id/seller_land_locationText"
+	android:layout_width="192px"
+	android:layout_height="wrap_content"
+	android:text="AutoComplete"
+	android:textSize="18sp"
+	android:layout_x="102dp"
+	android:layout_y="64dp"
+	android:layout_x="92dp"
+	android:layout_y="150dp" />
+<TextView
+	android:id="@+id/widget39"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Discription"
+	android:layout_x="12dp"
+	android:layout_y="180dp"
+	android:layout_x="9dp"
+	android:layout_y="233dp" />
+<EditText
+	android:id="@+id/seller_land_discriptionText"
+	android:layout_width="190px"
+	android:layout_height="92px"
+	android:textSize="18sp"
+	android:layout_x="102dp"
+	android:layout_y="138dp"
+	android:layout_x="93dp"
+	android:layout_y="209dp" />
+<Button
+	android:id="@+id/land_submit"
+	android:layout_width="73px"
+	android:layout_height="wrap_content"
+	android:text="Submit"
+	android:layout_x="196dp"
+	android:layout_y="297dp"
+	android:layout_x="203dp"
+	android:layout_y="316dp" />
+<ImageView
+	android:id="@+id/widget64"
+	android:layout_width="94px"
+	android:layout_height="63px"
+	android:src="@drawable/log"
+	android:layout_x="13dp"
+	android:layout_y="15dp" />
+</AbsoluteLayout>

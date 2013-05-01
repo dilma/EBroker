@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/loginback"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget33"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/white"
+	android:text="Brand"
+	android:layout_x="5dp"
+	android:layout_y="98dp" />
+
+<EditText
+    android:id="@+id/buyer_vehicle_barandTextview"
+    android:layout_width="208px"
+    android:layout_height="33px"
+    android:layout_x="87dp"
+    android:layout_y="95dp"
+    android:textSize="18sp" />
+
+<TextView
+	android:id="@+id/widget35"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/white"
+	android:text="Type"
+	android:layout_x="3dp"
+	android:layout_y="144dp" />
+
+<EditText
+    android:id="@+id/buyer_vehicle_typeTextview"
+    android:layout_width="208px"
+    android:layout_height="34px"
+    android:layout_x="88dp"
+    android:layout_y="139dp"
+    android:textSize="18sp" />
+
+<TextView
+	android:id="@+id/widget39"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="@color/white"
+	android:text="Contact"
+	android:layout_x="4dp"
+	android:layout_y="189dp" />
+
+<EditText
+    android:id="@+id/buyer_vehicle_contactTextview"
+    android:layout_width="206px"
+    android:layout_height="33px"
+    android:layout_x="89dp"
+    android:layout_y="184dp"
+    android:textSize="18sp" />
+
+<ImageView
+	android:id="@+id/widget43"
+	android:layout_width="92px"
+	android:layout_height="72px"
+	android:src="@drawable/log"
+	android:layout_x="12dp"
+	android:layout_y="10dp" />
+
+<Button
+    android:id="@+id/buyer_vehicle_requestButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="112dp"
+    android:layout_y="251dp"
+    android:text="Submit" />
+
+<Button
+    android:id="@+id/buyer_vehicle_exit"
+    android:layout_width="103dp"
+    android:layout_height="wrap_content"
+    android:layout_x="196dp"
+    android:layout_y="250dp"
+    android:text="@string/exit" />
+
+<TextView
+    android:id="@+id/buyer_vehicle_status"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_x="7dp"
+    android:layout_y="232dp"
+    android:text="@string/status" />
+
+</AbsoluteLayout>
